@@ -32,7 +32,7 @@ java Start
 
 ## Screenshots
 
-<img src="screenshots/1.png">
+<img src="Screenshots/1.png">
 
 ### Prerequisites
 
