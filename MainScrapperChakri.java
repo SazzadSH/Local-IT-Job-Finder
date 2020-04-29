@@ -9,7 +9,7 @@ import java.sql.*;
 public class MainScrapperChakri {
     ArrayList jobLinks = new ArrayList();
     ArrayList jobTitle = new ArrayList();
-    String title,jobSalary,jobRequirements,link,jobResponsibilities,LastDate,vacancy;
+    String title, jobSalary, jobRequirements, link, jobResponsibilities, LastDate, vacancy;
     public void scrapperLink(String start){
         try{
             Document doc = Jsoup.connect(start).userAgent("Mozilla/56.0.0").get();

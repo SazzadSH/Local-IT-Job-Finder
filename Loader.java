@@ -77,11 +77,15 @@ public class Loader extends JFrame implements ActionListener
 
 				MainScrapperJobComBD obj1 = new MainScrapperJobComBD();
     			obj1.scrapperLink("http://job.com.bd/jobs/?c=10");
-    			obj1.scrapperPost(); 
+				obj1.scrapperPost();
+				
+				CareerjetScrapper obj = new CareerjetScrapper();
+				obj.linkScrapper();
+				obj.postScrapper();
 			
-				MainScrapperChakri obj = new MainScrapperChakri();
+				/*MainScrapperChakri obj = new MainScrapperChakri();
   				obj.scrapperLink("http://www.chakri.com/job?catId=25");
-  				obj.scrapperPost(); 
+  				obj.scrapperPost(); */
 
   				//lsa.setVisible(false);
     			this.setVisible(false);
