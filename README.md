@@ -1,2 +1,3 @@
-# Local-IT-Job-Finder
-Local IT Job circular finding application (Fall 17 - 18 Semester Project on Java)
+#Local IT Job Finder
+###Introduction
+Desktop application built using JavaSE to scrape IT job circulars from various Bangladeshi online job portals.
