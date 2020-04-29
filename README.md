@@ -1,6 +1,6 @@
 # Local IT Job Finder
 ## Introduction
-Desktop application built on JavaSE to scrape IT job circulars from various Bangladeshi online job portals. It collects IT Job circulars from job portal and store them in local database and provides features to search and view according to user's need.
+Desktop based Web scraping & parsing application built on JavaSE to fetch IT job circulars from various Bangladeshi online job portals. It collects IT Job circulars from job portal and store them in local database and provides features to search and view according to user's need.
 
 ## Job Portals
 
@@ -23,7 +23,7 @@ Desktop application built on JavaSE to scrape IT job circulars from various Bang
 git clone https://github.com/SazzadSH/Local-IT-Job-Finder
 ```
 * Import the MySQL DB from 'Database' folder
-* Make sure handle dependecies: JDBC, Java MySQL Connector, JSoup
+* Make sure handle dependecies: JDBC Driver, Java MySQL Connector, JSoup
 * Build the application:
 ```
 javac Start.java
