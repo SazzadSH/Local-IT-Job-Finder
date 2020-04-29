@@ -30,9 +30,9 @@ javac Start.java
 java Start
 ```
 
-## Getting Started
+## Screenshots
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+<img src="screenshots/1.png">
 
 ### Prerequisites
 
